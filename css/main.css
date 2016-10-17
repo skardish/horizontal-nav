@@ -15,10 +15,18 @@ header {
 }
 
 nav ul {
-  color: #fff;
   list-style-type: none;
 }
 
 nav li {
   display: inline;
+}
+
+nav a {
+display: inline-block;
+width: 6em;
+padding: .6em;
+background-color: #713837;
+color: #fff;
+text-decoration: none;
 }
