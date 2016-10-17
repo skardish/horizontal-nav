@@ -8,3 +8,13 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+header {
+  text-align: center;
+  color: #fff;
+}
+
+ul li {
+  list-style-type: none;
+  color: #fff;
+}
