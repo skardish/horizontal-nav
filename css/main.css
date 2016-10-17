@@ -1,7 +1,6 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  background-color: #79756f;
   font: normal 100%/1.5 sans-serif;
 }
 
@@ -9,21 +8,33 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  background-color: #dbd6cf;
+  margin: 0;
+}
+
+.heading {
+  background-color: #79756f;
+  border-top: 3px solid #595652;
+  border-bottom: 3px solid #595652;
+}
+
 h1 {
   text-align: center;
   color: #fff;
   font-family: "Bevan", cursive;
+  margin: 0.3em 0 0;
 }
 
 nav ul {
   margin: 0;
-  padding: 0;
+  padding: 0 0.6em 0.6em;
   list-style-type: none;
   text-align: center;
 }
 
 nav li {
-  display: inline;
+  display: inline-block;
 }
 
 nav a {
