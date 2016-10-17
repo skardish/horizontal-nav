@@ -1,17 +1,18 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: "Bevan", cursive;
   background-color: #79756f;
+  font: normal 100%/1.5 sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-header {
+h1 {
   text-align: center;
   color: #fff;
+  font-family: "Bevan", cursive;
 }
 
 nav ul {
@@ -29,4 +30,5 @@ padding: .6em;
 background-color: #713837;
 color: #fff;
 text-decoration: none;
+text-align: center;
 }
